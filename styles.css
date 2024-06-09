@@ -5,6 +5,12 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: rgb(176, 176, 176);
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
@@ -66,4 +72,12 @@ li {
 
 .related-bullet-author {
   list-style: none;
+}
+
+/*header {
+  background-color: #f7f7f7;
+}*/
+
+.main-header {
+  background-color: #f7f7f7;
 }
