@@ -140,3 +140,36 @@ a:active {
 }
 
 /*LVHA*/
+
+
+/* Resolving conflicting declarations
+
+.author {
+  font-style:italic;
+  font-size: 18px;
+}
+
+#author-text {
+  font-size: 20px;
+}
+p,
+li {
+  font-family: sans-serif;
+  color: #444444;
+  font-size: 22px;
+}
+Highest priority
+
+5 Declarations marked !important[last resort]
+
+4 Inline style (style attribute in HTML)
+ 
+3 ID(#) selector[multiple-last selector applies]
+
+2 Class (.) or psuedo-class (:) selector[multiple-last selector applies]
+
+1 Element selector (p,div,li,etc.)[multiple-last selector applies]
+
+0 Universal selector (*)
+
+Lowest priority
