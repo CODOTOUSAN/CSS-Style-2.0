@@ -199,4 +199,6 @@ Inheritance and the universal selector
 
 nav a:link {
   font-size: 18px;
+  font-weight: 400;
 }
+/* Today we did our first practice website on codepen, still learnig how to export to github */
