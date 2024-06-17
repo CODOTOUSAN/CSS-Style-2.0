@@ -198,7 +198,21 @@ Inheritance and the universal selector
 */
 
 nav a:link {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 400;
 }
 /* Today we did our first practice website on codepen, still learnig how to export to github */
+
+/* 
+The CSS Box Model
+contex: text, images, etc.
+Border: a line around the element still inside of the element.
+Padding: incisible space around the content, inside of the element.
+Margin: space outside of the element, between elements.
+Fill area: area tha gets filled with background color or background image.
+
+Final element width= left border+ left padding + width + right padding + right border
+
+final element height= top border + top padding + height + bottom padding + bottom border
+
+ */
