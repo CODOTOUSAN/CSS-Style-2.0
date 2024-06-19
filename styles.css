@@ -86,6 +86,7 @@ li:last-child {
   font-size: 18px;
   font-weight: bold;
 }
+
 /* ul {
   list-style: none;
 } */
@@ -98,6 +99,12 @@ li:last-child {
   background-color: #f7f7f7;
 }*/
 
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* 
@@ -107,6 +114,7 @@ li:last-child {
    */
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
@@ -123,11 +131,12 @@ article {
 }
 
 aside {
-  background-color: #1098ad;
-  border: 5px solid #1098ad;
-  /* border-top: #1098ad;
-  border-bottom: #f7f7f7;*/
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  /* border-top: #1098ad; */
+  border-bottom: #f7f7f7;
   padding: 50px 0;
+  width: 500px;
 }
 
 /*body {
@@ -180,10 +189,14 @@ a:active {
   font-style: italic;
 }
 
-/*LVHA
+/*LVHA*/
 
+.post-image {
+  width: 100%;
+  height: auto;
+}
 
- Resolving conflicting declarations
+/*Resolving conflicting declarations
 
 .author {
   font-style:italic;
@@ -240,6 +253,7 @@ nav a:link {
   font-size: 19px;
   font-weight: 400;
 }
+
 /* Today we did our first practice website on codepen, still learnig how to export to github */
 
 /* 
