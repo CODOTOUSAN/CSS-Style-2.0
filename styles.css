@@ -9,7 +9,7 @@
 body {
   color: #444;
   font-family: sans-serif;
-position:relative;
+  position: relative;
   border-top: 10px solid #1098ad;
 }
 
@@ -127,6 +127,10 @@ nav a:link {
   font-weight: 400;
 }
 
+nav {
+  font-size: 18px;
+}
+
 article {
   margin-bottom: 60px;
 }
@@ -214,6 +218,35 @@ nav a:link:last-child {
   margin-right: 0;
 }
 
+/* This is a psuedo element, note the 2 colons */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* this is called adjacent sibling selector */
+h3 + p::first-line {
+  color: red;
+}
+
+/* this is the "after" and "before" pseudo elements, creates a opsuddo elemet that will automatially be the fort child of he selected lemeet */
+
+h2::after {
+  content: "TOP";
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ffe70e;
+  color: #000;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+/* in order to use position:absolute; position:relative needs to be placed into the parent elmenent */
+h2 {
+  position: relative;
+}
 /*Resolving conflicting declarations
 
 .author {
@@ -292,7 +325,8 @@ button {
   padding: 20px;
   cursor: pointer;
   position: absolute;
-bottom: 50px;
-right: 50px;
+  bottom: 50px;
+  right: 50px;
   /* bottom-right: 10px;
 } */
+}
