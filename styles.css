@@ -94,6 +94,7 @@ li:last-child {
 
 .related-bullet-author {
   list-style: none;
+  margin-left: 0;
 }
 
 /*header {
@@ -139,8 +140,8 @@ article {
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
-  /* border-top: #1098ad; */
-  border-bottom: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
   padding: 50px 0;
   width: 500px;
 }
