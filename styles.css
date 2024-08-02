@@ -1,9 +1,10 @@
 * {
-  /* Applies to all elements and doest get inherited 
-  border-top: 10px solid #1098ad; */
+  /* /* Applies to all elements and doest get inherited  */
   /* Global reset is very common, always do first */
+  /* border-top: 10px solid #1098ad;  */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -48,6 +49,7 @@ h4 {
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 ul,
@@ -140,10 +142,9 @@ article {
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
-  border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 
 /*body {
